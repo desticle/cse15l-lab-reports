@@ -1,4 +1,5 @@
 Hello
 *Italic*
-**Bold**
----
+Bold
+`Inline`
+
