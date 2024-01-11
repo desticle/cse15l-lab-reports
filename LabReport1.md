@@ -1,8 +1,10 @@
 **Lab Report 1 - Remote Access and File System**
 
+---
+
 **`cd`**
 
-*No arguments:* 
+> *No arguments* 
 
 Command: `cd`
 
@@ -12,7 +14,7 @@ Working directory: The working directory already had no arguments. It was the en
 
 Explanation: The output set the prompt to the default. With no arguments, the working directory defaults to the entire workspace. The output is not an error.
 
-*Directory as an argument:*
+> *Directory as an argument*
 
 Command: `cd lecture1`
 
@@ -22,7 +24,7 @@ Working directory: The working directory already had no arguments. It was the en
 
 Explanation: The `lecture1` folder is a directory and was set to be the working directory. The output is not an error.
 
-*Directory as an argument:*
+> *File as an argument*
 
 Command: `cd Hello.java`
 
@@ -32,9 +34,11 @@ Working directory: The working directory already had no arguments. It was the en
 
 Explanation: `Hello.java is a file`, which cannot be set to be a directory. 
 
+---
+
 **`ls`**
 
-*No arguments:* 
+> *No arguments* 
 
 Command:
 
@@ -44,7 +48,7 @@ Working directory:
 
 Explanation:
 
-*Directory as an argument:*
+> *Directory as an argument*
 
 Command:
 
@@ -54,7 +58,7 @@ Working directory:
 
 Explanation:
 
-*Directory as an argument:*
+> *File as an argument*
 
 Command:
 
@@ -64,9 +68,11 @@ Working directory:
 
 Explanation:
 
+---
+
 **`cat`**
 
-*No arguments:* 
+> *No arguments:* 
 
 Command:
 
@@ -76,7 +82,7 @@ Working directory:
 
 Explanation:
 
-*Directory as an argument:*
+> *Directory as an argument*
 
 Command:
 
@@ -86,7 +92,7 @@ Working directory:
 
 Explanation:
 
-*Directory as an argument:*
+> *File as an argument*
 
 Command:
 
