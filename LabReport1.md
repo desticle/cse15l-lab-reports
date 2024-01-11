@@ -32,6 +32,72 @@ Working directory: The working directory already had no arguments. It was the en
 
 Explanation: `Hello.java is a file`, which cannot be set to be a directory. 
 
+**`ls`**
+
+*No arguments:* 
+
+Command:
+
+Output: 
+
+Working directory:
+
+Explanation:
+
+*Directory as an argument:*
+
+Command:
+
+Output:
+
+Working directory:
+
+Explanation:
+
+*Directory as an argument:*
+
+Command:
+
+Output:  
+
+Working directory: 
+
+Explanation:
+
+**`cat`**
+
+*No arguments:* 
+
+Command:
+
+Output: 
+
+Working directory:
+
+Explanation:
+
+*Directory as an argument:*
+
+Command:
+
+Output:
+
+Working directory:
+
+Explanation:
+
+*Directory as an argument:*
+
+Command:
+
+Output:  
+
+Working directory: 
+
+Explanation:
+
+
+
 
 
 
