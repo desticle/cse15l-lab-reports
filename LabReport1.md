@@ -10,9 +10,9 @@ Command: `cd`
 
 Output: Sets prompt to `[user@sahara ~]$`
 
-Working directory: The working directory already had no arguments. It was the entire workspace.
+Working directory: The working directory was the entire workspace.
 
-Explanation: The output set the prompt to the default. With no arguments, the working directory defaults to the entire workspace. The output is not an error.
+Explanation: The output set the prompt to the default. With no arguments, the working directory defaults to the entire workspace.
 
 > *Directory as an argument*
 
@@ -20,9 +20,9 @@ Command: `cd lecture1`
 
 Output: Sets prompt to `[user@sahara ~/lecture1]$`
 
-Working directory: The working directory already had no arguments. It was the entire workspace.
+Working directory: The working directory is the entire workspace.
 
-Explanation: The `lecture1` folder is a directory and was set to be the working directory. The output is not an error.
+Explanation: The `lecture1` folder is a directory and was set to be the working directory.
 
 > *File as an argument*
 
@@ -30,7 +30,7 @@ Command: `cd Hello.java`
 
 Output:  `bash: cd: Hello.java: No such file or directory`
 
-Working directory: The working directory already had no arguments. It was the entire workspace.
+Working directory: The working directory was the entire workspace.
 
 Explanation: `Hello.java is a file`, which cannot be set to be a directory. 
 
@@ -40,33 +40,33 @@ Explanation: `Hello.java is a file`, which cannot be set to be a directory.
 
 > *No arguments* 
 
-Command:
+Command: `ls`
 
-Output: 
+Output: `lecture1`
 
-Working directory:
+Working directory: The working directory is the entire workspace.
 
-Explanation:
+Explanation: This command lists the files in the workspace, which contains only the 'lecture1' directory. 
 
 > *Directory as an argument*
 
-Command:
+Command: `ls lecture1`
 
-Output:
+Output: `Hello.class  Hello.java  messages  README`
 
-Working directory:
+Working directory: The working directory is `lecture1`.
 
-Explanation:
+Explanation: This command lists the files in the `lecture1` directory.
 
 > *File as an argument*
 
-Command:
+Command: `ls Hello.java`
 
-Output:  
+Output: `ls: cannot access Hello.java: No such file or directory`
 
-Working directory: 
+Working directory: The working directory is the `Hello.java` file.
 
-Explanation:
+Explanation: A file cannot be used as a directory, so the error is given.
 
 ---
 
