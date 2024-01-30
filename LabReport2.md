@@ -42,6 +42,8 @@ class ChatServer {
 
 **Using `add-message`**
 
-![Uploading image.png…]()
+![Image](ss1.png)
+
+![Image](ss2.png)
 
 
