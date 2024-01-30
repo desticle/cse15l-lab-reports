@@ -2,14 +2,13 @@
 
 ---
 **ChatServer code**
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
-
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     String str = "";
-
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format(str);
@@ -38,4 +37,11 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}`
+}
+```
+
+**Using `add-message`**
+
+![Uploading image.png…]()
+
+
