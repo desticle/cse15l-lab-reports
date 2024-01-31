@@ -10,9 +10,9 @@ Command: `cd`
 
 Output: Sets prompt to `[user@sahara ~]$`
 
-Working directory: The working directory is the `home`.
+Working directory: The working directory is `/home`.
 
-Explanation: With no arguments, the working directory defaults to `home`.
+Explanation: With no arguments, the working directory defaults to `/home`. No error is given.
 
 > *Directory as an argument*
 
@@ -22,7 +22,7 @@ Output: Sets prompt to `[user@sahara ~/lecture1]$`
 
 Working directory: The working directory is `home`.
 
-Explanation: The `lecture1` folder is a directory and was set to be the working directory.
+Explanation: The `lecture1` folder is a directory and was set to be the working directory. No error is given.
 
 > *File as an argument*
 
@@ -32,7 +32,7 @@ Output:  `bash: cd: Hello.java: No such file or directory`
 
 Working directory: The working directory is `home`.
 
-Explanation: `Hello.java is a file`, which cannot be set to be a directory. 
+Explanation: An error is given because `Hello.java` is a file, which cannot be set to be a directory.
 
 ---
 
@@ -46,7 +46,7 @@ Output: `lecture1`
 
 Working directory: The working directory is `home`.
 
-Explanation: This command lists the files in the workspace, which contains only the 'lecture1' directory. 
+Explanation: This command lists the files in the workspace, which contains only the `lecture1` directory. No error is given.
 
 > *Directory as an argument*
 
@@ -56,17 +56,17 @@ Output: `Hello.class  Hello.java  messages  README`
 
 Working directory: The working directory is `lecture1`.
 
-Explanation: This command lists the files in the `lecture1` directory.
+Explanation: This command lists the files in the `lecture1` directory. No error is given.
 
 > *File as an argument*
 
 Command: `ls Hello.java`
 
-Output: `ls: cannot access Hello.java: No such file or directory`
+Output: `Hello.java`
 
-Working directory: The working directory is the `Hello.java` file.
+Working directory: The working directory is the `lecture1` directory.
 
-Explanation: A file cannot be used as a directory, so the error is given.
+Explanation: The command specifically lists only the requested file. No error is given.
 
 ---
 
@@ -80,7 +80,7 @@ Output: No output
 
 Working directory: `/home`
 
-Explanation: `cat` is used to display what is in a file. With no argument, there is nothing to display. 
+Explanation: `cat` is used to display what is in a file. With no argument, there is nothing to display. It also removes the prompt in the terminal. No error is given.
 
 > *Directory as an argument*
 
@@ -90,7 +90,7 @@ Output: `cat: /home/lecture1/messages: Is a directory`
 
 Working directory: `messages`
 
-Explanation: The error is given because `cat` displays what is inside a file, not what is in an entire directory.
+Explanation: An error is given because `cat` displays what is inside a file, not what is in an entire directory.
 
 > *File as an argument*
 
@@ -100,7 +100,7 @@ Output: `Γειά σου Κόσμε!`
 
 Working directory: `messages`
 
-Explanation: The `cat` command displays the text in the el.txt file.
+Explanation: The `cat` command displays the text in the el.txt file. No error is given.
 
 
 
