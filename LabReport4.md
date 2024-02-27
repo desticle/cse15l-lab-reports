@@ -22,3 +22,4 @@ Explanation: I typed the beginning of the git clone command and took a small sho
 
 Keys Pressed: `cd lab7 <enter>, <command> v <enter>, <command> v <enter>`
 
+Explanation: I changed the current directory to be the cloned fork. I then (copied and) pasted `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ...` to run the tests.
