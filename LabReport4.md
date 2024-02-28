@@ -42,6 +42,10 @@ Explanation: The `bash test.sh` command was two up in the history. I used it aga
 
 **Step 9**
 
-Keys Pressed:
+![Image](ss12.png)
+
+Keys Pressed: `git <space> add <space> . <enter, git <space> com <tab> <space> -m "naenae" <enter>`
+
+Explanation: I typed `git add .`. I then typed `git commit -m "naenae"` using `<tab>` to autofill when possible. 
 
 
