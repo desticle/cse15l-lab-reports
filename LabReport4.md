@@ -34,4 +34,14 @@ Explanation: I typed `vim ListExamples.java`, using tab to autofill when possibl
 
 **Step 8**
 
+![Image](ss11.png)
+
+Keys Pressed: `<up> <up> <enter>`
+
+Explanation: The `bash test.sh` command was two up in the history. I used it again to run the tests.
+
+**Step 9**
+
+Keys Pressed:
+
 
