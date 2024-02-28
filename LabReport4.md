@@ -20,9 +20,9 @@ Explanation: I typed the beginning of the git clone command and took a small sho
 
 ![Image](ss9.png)
 
-Keys Pressed: `cd <space> lab7 <enter>, <command>v <enter>, <command>v <enter>`
+Keys Pressed: `cd <space> lab7 <enter>, bash t <tab> <enter>`
 
-Explanation: I changed the current directory to be the cloned fork. I then (copied and) pasted `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ...` to run the tests.
+Explanation: I changed the current directory to be the cloned fork. I then typed in `bash test.sh` using `<tab>` to autofill when possible.
 
 **Step 7**
 
